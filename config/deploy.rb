@@ -8,7 +8,7 @@ set :application, "demoCapistrano"
 set :deploy_to, -> { "/var/www/#{fetch(:application)}_#{fetch(:stage)}" }
 
 #nơi lưu trữ repository của project (demo này ta sử dụng github.com làm nơi chứa project)
-set :repo_url, "git@github.com:[xxxxx]/[xxxx].git"
+set :repo_url, "git@github.com:SugarTank/demoCapistrano.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

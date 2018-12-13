@@ -1,3 +1,8 @@
+# kết nối ssh với server: $ ssh [ADMIN]@[SERVER_IP_ADDRESS]
+
+server '172.30.4.201', user: 'deploys', roles: %w{web app db}
+
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
